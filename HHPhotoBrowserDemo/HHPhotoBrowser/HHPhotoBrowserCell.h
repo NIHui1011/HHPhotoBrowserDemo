@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "HHPhotoBrowserProgressView.h"
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+
+
 @class HHPhotoBrowserCell;
 @protocol HHPhotoBrowserCellDelegate <NSObject>
 - (void)HHPhotoBrowserCellDidSingleTap:(HHPhotoBrowserCell *)cell;

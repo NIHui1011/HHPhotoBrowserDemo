@@ -12,6 +12,10 @@
 #import "HHScaleAnimator.h"
 #import "HHScaleAnimatorCoordinator.h"
 #import <SDWebImageManager.h>
+#import <UIImageView+WebCache.h>
+
+
+
 @class HHPhotoBrowser;
 @protocol HHPhotoBrowserDelegate <NSObject>
 /// 实现本方法以返回图片数量
