@@ -13,7 +13,7 @@ It is a photobrowser which implement by Objective-C.
 
 DESC
 
-s.homepage        = "https://github.com/NIHui1011/HHPhotoBrowerDemo"
+s.homepage        = "https://github.com/NIHui1011/HHPhotoBrowserDemo"
 
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
@@ -25,7 +25,8 @@ s.source          = { :git => "https://github.com/NIHui1011/HHPhotoBrowser.git",
 
 # s.social_media_url = 'https://twitter.com/NAME'
 
-s.platform    = :ios, '7.0'
+s.platform     = :ios
+s.platform     = :ios, "8.0"
 
 # s.ios.deployment_target = '5.0'
 

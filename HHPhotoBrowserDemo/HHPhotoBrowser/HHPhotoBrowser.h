@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HHPhotoBrowserCell.h"
+#import "HHPBFlowLayout.h"
+#import "HHScaleAnimator.h"
+#import "HHScaleAnimatorCoordinator.h"
+#import <SDWebImageManager.h>
 @class HHPhotoBrowser;
 @protocol HHPhotoBrowserDelegate <NSObject>
 /// 实现本方法以返回图片数量
